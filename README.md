@@ -1,70 +1,53 @@
-# Modern Portfolio Website
+# Next.js & HeroUI Template
 
-A sleek and modern portfolio website built with Next.js, Tailwind CSS, and Framer Motion. Features a dark theme, responsive design, and smooth animations.
+This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
 
-## 🚀 Features
+[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
 
-- Modern and clean design with dark mode
-- Responsive layout for all devices
-- Smooth animations with Framer Motion
-- Optimized performance with Next.js
-- SEO friendly
-- Easy to customize content
+## Technologies Used
 
-## 🛠️ Built With
+- [Next.js 14](https://nextjs.org/docs/getting-started)
+- [HeroUI v2](https://heroui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Tailwind Variants](https://tailwind-variants.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [next-themes](https://github.com/pacocoursey/next-themes)
 
-- [Next.js](https://nextjs.org/) - React framework
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
-- [Framer Motion](https://www.framer.com/motion/) - Animations
-- [Hero Icons](https://heroicons.com/) - Beautiful SVG icons
-- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Geist Font](https://vercel.com/font) - Modern typography
+## How to Use
 
-## 🚀 Getting Started
+### Use the template with create-next-app
 
-### Prerequisites
+To create a new project based on this template using `create-next-app`, run the following command:
 
-- Node.js (v18 or higher)
-- pnpm (v8 or higher)
-
-### Installation
-
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pnpm install
-   ```
-3. Run the development server:
-   ```bash
-   pnpm dev
-   ```
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
-
-## 📝 Customization
-
-1. Update your information in `src/data/portfolioData.json`
-2. Replace images in `public/images/`
-3. Modify styles in `tailwind.config.ts` and `src/app/globals.css`
-4. Update content in `src/app/sections/`
-
-## 📦 Project Structure
-
-```
-portfolio-nextjs/
-├── public/           # Static assets
-├── src/
-│   ├── app/         # Next.js app
-│   │   └── sections/# Page sections
-│   ├── components/  # Reusable UI
-│   └── data/       # Portfolio data
-└── ...config files
+```bash
+npx create-next-app -e https://github.com/heroui-inc/next-app-template
 ```
 
-## 🌐 Deployment
+### Install dependencies
 
-Deploy easily with [Vercel](https://vercel.com/new). Simply push to your repository and Vercel will handle the rest.
+You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
 
-## 📄 License
+```bash
+npm install
+```
 
-This project is open source and available under the MIT License.
+### Run the development server
+
+```bash
+npm run dev
+```
+
+### Setup pnpm (optional)
+
+If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+
+```bash
+public-hoist-pattern[]=*@heroui/*
+```
+
+After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+
+## License
+
+Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).

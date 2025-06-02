@@ -1,9 +1,9 @@
-import HeroSection from './sections/HeroSection';
-import AboutSection from './sections/AboutSection';
-import SkillsSection from './sections/SkillsSection';
-import ExperienceSection from './sections/ExperienceSection';
-import ProjectsSection from './sections/ProjectsSection';
-import ContactSection from './sections/ContactSection';
+import HeroSection from '../container/HeroSection';
+import AboutSection from '../container/AboutSection';
+import SkillsSection from '../container/SkillsSection';
+import ExperienceSection from '../container/ExperienceSection';
+import ProjectsSection from '../container/ProjectsSection';
+import ContactSection from '../container/ContactSection';
 import portfolioData from '@/data/portfolioData.json';
 
 export default function Home() {

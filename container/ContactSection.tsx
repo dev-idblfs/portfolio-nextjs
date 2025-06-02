@@ -1,7 +1,8 @@
 "use client";
 
+import { EnvelopeIcon } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { Github, LinkedinIcon } from 'lucide-react';
 
 interface ContactSectionProps {
   profile: {
@@ -14,19 +15,19 @@ interface ContactSectionProps {
 const ContactSection: React.FC<ContactSectionProps> = ({ profile }) => {
   const contactMethods = [
     {
-      icon: FaEnvelope,
+      icon: EnvelopeIcon,
       label: 'Email',
       value: profile.email,
       href: `mailto:${profile.email}`,
     },
     {
-      icon: FaLinkedin,
+      icon: LinkedinIcon,
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
       href: profile.linkedin,
     },
     {
-      icon: FaGithub,
+      icon: Github,
       label: 'GitHub',
       value: 'View GitHub Profile',
       href: profile.github,
