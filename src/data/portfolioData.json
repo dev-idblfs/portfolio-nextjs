@@ -1,0 +1,547 @@
+{
+    "profile": {
+        "name": "Divyanshu Jaiswal",
+        "title": "Senior Software Engineer",
+        "tagline": "Crafting scalable backend solutions and dynamic web experiences.",
+        "location": "Your City, Your Country (e.g., Kanpur, India)",
+        "email": "mr.divyanshu96@gmail.com",
+        "phone": "07355198773",
+        "linkedin": "https://www.linkedin.com/in/dev-idblfs/",
+        "github": "https://github.com/dev-idblfs",
+        "website": "your-personal-website.com (optional)",
+        "profileImage": "/images/project-placeholder.png",
+        "resumeUrl": "/resume/Divyanshu_Jaiswal_Resume.pdf",
+        "bio": "Dynamic and results-oriented Senior Software Engineer with over 5 years of dedicated experience in backend development, product scaling, and meticulous code optimization. Proficient in JavaScript (Node.js, TypeScript), Python, and a wide array of modern web technologies. Proven track record of successfully leading and delivering 20+ complex projects from initial concept through to full deployment, consistently achieving significant improvements in system efficiency, performance, and user engagement. \n\nExpertise in designing and implementing robust RESTful APIs, architecting microservices, and developing dynamic web applications. Deeply skilled in middleware integration (SOAP, JSON, XML) and ensuring data security with advanced encryption techniques like AES256. Adept at leveraging cloud platforms (AWS, GCP), containerization (Docker, Kubernetes), and CI/CD pipelines for streamlined development and deployment. \n\nA proactive problem-solver with strong project management capabilities, adept at process automation, team leadership, and fostering collaborative environments. Passionate about exploring new technologies and applying innovative solutions to real-world challenges.",
+        "interests": [
+            "Cooking",
+            "Riding",
+            "Traveling",
+            "Exploring new technologies",
+            "Open-source contribution"
+        ]
+    },
+    "skills": [
+        {
+            "id": "s1",
+            "name": "JavaScript",
+            "level": 95,
+            "category": "Programming Languages",
+            "icon": "js-icon-class"
+        },
+        {
+            "id": "s2",
+            "name": "TypeScript",
+            "level": 90,
+            "category": "Programming Languages",
+            "icon": "ts-icon-class"
+        },
+        {
+            "id": "s3",
+            "name": "Node.js",
+            "level": 95,
+            "category": "Programming Languages & Runtimes",
+            "icon": "nodejs-icon-class"
+        },
+        {
+            "id": "s4",
+            "name": "Python",
+            "level": 85,
+            "category": "Programming Languages",
+            "icon": "python-icon-class"
+        },
+        {
+            "id": "s5",
+            "name": "React.js",
+            "level": 80,
+            "category": "Web Technologies - Frontend",
+            "icon": "react-icon-class"
+        },
+        {
+            "id": "s6",
+            "name": "Angular",
+            "level": 70,
+            "category": "Web Technologies - Frontend",
+            "icon": "angular-icon-class"
+        },
+        {
+            "id": "s7",
+            "name": "Next.js",
+            "level": 85,
+            "category": "Frameworks & Tools - Fullstack",
+            "icon": "nextjs-icon-class"
+        },
+        {
+            "id": "s8",
+            "name": "Express.js",
+            "level": 95,
+            "category": "Frameworks & Tools - Backend",
+            "icon": "express-icon-class"
+        },
+        {
+            "id": "s9",
+            "name": "Django",
+            "level": 75,
+            "category": "Frameworks & Tools - Backend",
+            "icon": "django-icon-class"
+        },
+        {
+            "id": "s10",
+            "name": "Docker",
+            "level": 90,
+            "category": "DevOps & Tools",
+            "icon": "docker-icon-class"
+        },
+        {
+            "id": "s11",
+            "name": "Kubernetes",
+            "level": 80,
+            "category": "DevOps & Tools",
+            "icon": "k8s-icon-class"
+        },
+        {
+            "id": "s12",
+            "name": "AWS",
+            "level": 85,
+            "category": "Cloud Platforms",
+            "services": [
+                "Lambda",
+                "EC2",
+                "S3",
+                "SQS",
+                "API Gateway",
+                "RDS"
+            ],
+            "icon": "aws-icon-class"
+        },
+        {
+            "id": "s13",
+            "name": "GCP",
+            "level": 70,
+            "category": "Cloud Platforms",
+            "services": [
+                "Cloud Functions",
+                "Compute Engine",
+                "Cloud Storage"
+            ],
+            "icon": "gcp-icon-class"
+        },
+        {
+            "id": "s14",
+            "name": "MongoDB",
+            "level": 90,
+            "category": "Databases - NoSQL",
+            "icon": "mongodb-icon-class"
+        },
+        {
+            "id": "s15",
+            "name": "PostgreSQL",
+            "level": 80,
+            "category": "Databases - SQL",
+            "icon": "postgresql-icon-class"
+        },
+        {
+            "id": "s16",
+            "name": "MySQL",
+            "level": 85,
+            "category": "Databases - SQL",
+            "icon": "mysql-icon-class"
+        },
+        {
+            "id": "s17",
+            "name": "Redis",
+            "level": 75,
+            "category": "Databases - Caching",
+            "icon": "redis-icon-class"
+        },
+        {
+            "id": "s18",
+            "name": "Elasticsearch",
+            "level": 70,
+            "category": "Databases - Search",
+            "icon": "elastic-icon-class"
+        },
+        {
+            "id": "s19",
+            "name": "Firebase DB",
+            "level": 70,
+            "category": "Databases - NoSQL",
+            "icon": "firebase-icon-class"
+        },
+        {
+            "id": "s20",
+            "name": "Memcached",
+            "level": 65,
+            "category": "Databases - Caching",
+            "icon": "memcached-icon-class"
+        },
+        {
+            "id": "s21",
+            "name": "REST API Design",
+            "level": 95,
+            "category": "Web Technologies - API",
+            "icon": "api-icon-class"
+        },
+        {
+            "id": "s22",
+            "name": "GraphQL",
+            "level": 70,
+            "category": "Web Technologies - API",
+            "icon": "graphql-icon-class"
+        },
+        {
+            "id": "s23",
+            "name": "HTML5",
+            "level": 80,
+            "category": "Web Technologies - Frontend",
+            "icon": "html5-icon-class"
+        },
+        {
+            "id": "s24",
+            "name": "CSS3",
+            "level": 75,
+            "category": "Web Technologies - Frontend",
+            "icon": "css3-icon-class"
+        },
+        {
+            "id": "s25",
+            "name": "Redux/Thunk/Saga",
+            "level": 75,
+            "category": "Web Technologies - Frontend",
+            "icon": "redux-icon-class"
+        },
+        {
+            "id": "s26",
+            "name": "Kafka",
+            "level": 80,
+            "category": "Message Queues & Streaming",
+            "icon": "kafka-icon-class"
+        },
+        {
+            "id": "s27",
+            "name": "RabbitMQ",
+            "level": 70,
+            "category": "Message Queues & Streaming",
+            "icon": "rabbitmq-icon-class"
+        },
+        {
+            "id": "s28",
+            "name": "CI/CD (Jenkins, GitLab CI)",
+            "level": 80,
+            "category": "DevOps & Tools",
+            "icon": "cicd-icon-class"
+        },
+        {
+            "id": "s29",
+            "name": "Git & GitHub/GitLab",
+            "level": 95,
+            "category": "Version Control",
+            "icon": "git-icon-class"
+        },
+        {
+            "id": "s30",
+            "name": "Agile Methodologies (Scrum, Kanban)",
+            "level": 90,
+            "category": "Methodologies",
+            "icon": "agile-icon-class"
+        },
+        {
+            "id": "s31",
+            "name": "SOAP & XML Integration",
+            "level": 80,
+            "category": "Middleware & Integration",
+            "icon": "soap-icon-class"
+        },
+        {
+            "id": "s32",
+            "name": "JSON Web Tokens (JWT)",
+            "level": 85,
+            "category": "Security",
+            "icon": "jwt-icon-class"
+        },
+        {
+            "id": "s33",
+            "name": "AES256 Encryption",
+            "level": 80,
+            "category": "Security",
+            "icon": "encryption-icon-class"
+        },
+        {
+            "id": "s34",
+            "name": "Algorithm Optimization",
+            "level": 85,
+            "category": "Problem Solving",
+            "icon": "algo-icon-class"
+        },
+        {
+            "id": "s35",
+            "name": "System Design",
+            "level": 80,
+            "category": "Architecture",
+            "icon": "system-design-icon-class"
+        },
+        {
+            "id": "s36",
+            "name": "Microservices Architecture",
+            "level": 75,
+            "category": "Architecture",
+            "icon": "microservices-icon-class"
+        }
+    ],
+    "experience": [
+        {
+            "id": "e1",
+            "company": "Vansun MediaTech Pvt Ltd.",
+            "companyLogo": "/images/company-logos/vansun.png",
+            "website": "https://91wheels.com",
+            "role": "Senior Software Engineer",
+            "period": "December 2022 – Present",
+            "location": "Gurugram, Haryana (Remote)",
+            "summary": "Leading backend development for key platform features, focusing on scalability, performance, and user engagement in the automotive tech space.",
+            "responsibilities": [
+                "Spearheaded the architecture and development of a new community engagement platform, resulting in a 30% increase in active daily users and a 20% uplift in content generation within the first quarter.",
+                "Led a comprehensive code revamp initiative for the core API services, optimizing database queries and refactoring legacy code, which improved overall system performance by 25% and reduced average API response time by 150ms.",
+                "Innovated and implemented in-house Python scripts for data processing and ETL tasks, streamlining operations for content ingestion and significantly enhancing system efficiency, reducing manual processing time by over 20%.",
+                "Mentored a team of 3 junior developers, providing guidance on best practices, code reviews, and fostering a culture of continuous learning and improvement.",
+                "Collaborated closely with product managers and frontend teams to define feature requirements and ensure seamless integration of backend services."
+            ],
+            "techStack": [
+                "Docker",
+                "MERN Stack (MongoDB, Express.js, React.js, Node.js)",
+                "Elasticsearch",
+                "Next.js",
+                "TypeScript",
+                "Python",
+                "MySQL",
+                "AWS (EC2, S3, Lambda)",
+                "CI/CD"
+            ]
+        },
+        {
+            "id": "e2",
+            "company": "Grene Robotics India Pvt. Ltd.",
+            "companyLogo": "/images/company-logos/grene.png",
+            "website": "https://greneos.com",
+            "role": "Senior Engineer",
+            "period": "December 2021 – November 2022",
+            "location": "Hyderabad, Telangana",
+            "summary": "Developed and integrated SAAS solutions, focusing on automation and robust data transmission for enterprise clients.",
+            "responsibilities": [
+                "Successfully integrated over 10 major clients onto the GreneOS SAAS platform, customizing solutions to meet specific business needs and boosting overall client satisfaction scores by 15%.",
+                "Engineered and deployed automation bots using Kafka and Node.js for real-time data processing and task automation, leading to a 20% increase in operational efficiency for key business processes.",
+                "Designed and implemented middleware for encoding/decoding and secure data transmission over SOAP, JSON, and XML protocols, enhancing data processing speed by 25% and ensuring compatibility with diverse client systems.",
+                "Contributed to the development of a scalable microservices architecture, improving system resilience and maintainability.",
+                "Participated in security audits and implemented measures to ensure data integrity and compliance with industry standards."
+            ],
+            "techStack": [
+                "Node.js",
+                "Docker",
+                "Kubernetes",
+                "MySQL",
+                "Elasticsearch",
+                "Kafka",
+                "SOAP",
+                "JSON",
+                "XML",
+                "REST APIs",
+                "AWS"
+            ]
+        },
+        {
+            "id": "e3",
+            "company": "SmartData Enterprises Inc.",
+            "companyLogo": "/images/company-logos/smartdata.png",
+            "website": "https://smartdatainc.com",
+            "role": "MEARN Stack Developer",
+            "period": "December 2020 – December 2021",
+            "location": "Nagpur, Maharashtra (Remote)",
+            "summary": "Delivered full-stack solutions for diverse client projects, managed team operations, and improved billing accuracy.",
+            "responsibilities": [
+                "Delivered tailored full-stack solutions for 5+ dynamic client requirements using the MEARN stack, consistently maintaining a 95% client satisfaction rate through effective communication and high-quality deliverables.",
+                "Managed development operations and facilitated weekly billing processes for a team of 7-8 members, implementing a new tracking system that improved billing accuracy by 15% and streamlined reporting.",
+                "Developed and maintained RESTful APIs for various applications, ensuring optimal performance and scalability.",
+                "Contributed to frontend development using React.js and Next.js, creating responsive and user-friendly interfaces."
+            ],
+            "techStack": [
+                "Docker",
+                "MEARN Stack (MongoDB, Express.js, Angular/React.js, Node.js)",
+                "Elasticsearch",
+                "Next.js",
+                "Nest.js",
+                "MySQL",
+                "REST APIs"
+            ]
+        },
+        {
+            "id": "e4",
+            "company": "Riolabz",
+            "companyLogo": "/images/company-logos/riolabz.png",
+            "website": "https://riolabz.com",
+            "role": "Full stack Developer",
+            "period": "July 2020 – November 2020",
+            "location": "Your Location (Remote)",
+            "summary": "Led development of admin panel systems, enhancing user experience and implementing robust security measures.",
+            "responsibilities": [
+                "Led the end-to-end development of admin panel management systems for multiple client projects, focusing on enhancing user experience through intuitive design and improving system security.",
+                "Implemented dynamic widgets and granular role-based access controls (RBAC), which improved overall system security by 20% and provided flexible management capabilities.",
+                "Developed custom dashboards for data visualization and reporting, enabling clients to gain actionable insights."
+            ],
+            "techStack": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "React.js",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "id": "e5",
+            "company": "Tagnpin Web Solutions LLP.",
+            "companyLogo": "/images/company-logos/tagnpin.png",
+            "website": "https://notifyvisitors.com",
+            "role": "Web Developer",
+            "period": "May 2019 – June 2020",
+            "location": "Noida, Uttar Pradesh",
+            "summary": "Developed AI-driven solutions and translated product ideas into robust web features.",
+            "responsibilities": [
+                "Developed an AI chatbot based on RASA and ML principles, integrating it into client websites to increase customer engagement by an average of 25% and automate query resolution.",
+                "Translated complex product ideas and requirements into robust, scalable, and maintainable web features, contributing significantly to the overall success and evolution of multiple projects.",
+                "Worked on full-stack development tasks, including frontend UI implementation with HTML, CSS, JavaScript, and backend logic with Node.js and Python."
+            ],
+            "techStack": [
+                "MERN Stack",
+                "Elasticsearch",
+                "Express.js",
+                "Python",
+                "RASA (NLU/Core)",
+                "Machine Learning (basic)",
+                "HTML",
+                "CSS",
+                "MySQL",
+                "MongoDB",
+                "JavaScript"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": "p1",
+            "title": "Online Food Ordering System (MERN)",
+            "category": "Full-Stack Web Application",
+            "description": "A comprehensive MERN stack application for online food ordering, featuring user authentication, restaurant listings, menu management, cart functionality, and order processing. Designed with a focus on user experience and scalability.",
+            "longDescription": "This project was developed to explore the intricacies of building a full-featured e-commerce platform. Key features include JWT-based authentication, role-based access (user, restaurant owner, admin), real-time order status updates (conceptualized, could be implemented with WebSockets), and integration with a payment gateway (Stripe/PayPal placeholder). The backend is built with Node.js and Express, utilizing MongoDB for data persistence. The frontend is a responsive React application.",
+            "techStack": [
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "Redux",
+                "JWT",
+                "Tailwind CSS",
+                "Stripe API (conceptual)"
+            ],
+            "imageUrl": "/images/projects/online-food-order.png",
+            "liveLink": "https://your-live-demo-link.com/online-food",
+            "repoLink": "https://github.com/dev-idblfs/online_food_order",
+            "status": "Completed",
+            "type": "Personal Project"
+        },
+        {
+            "id": "p2",
+            "title": "Netflix Clone (React & Firebase)",
+            "category": "Frontend Application",
+            "description": "A clone of the Netflix UI built with React, utilizing Firebase for authentication and TMDB API for movie data. Features dynamic content display and trailer popups.",
+            "longDescription": "This project aimed to replicate the core UI/UX of Netflix, focusing on frontend development skills with React. It integrates with The Movie Database (TMDB) API to fetch movie and TV show information, displaying them in a familiar, browseable interface. Firebase is used for user authentication (Google Sign-In). Implemented features include categorized rows, hover effects for movie details, and YouTube trailer playback within a modal.",
+            "techStack": [
+                "React.js",
+                "Firebase (Auth, Firestore)",
+                "TMDB API",
+                "Tailwind CSS",
+                "Axios"
+            ],
+            "imageUrl": "/images/projects/netflix-clone.png",
+            "liveLink": "https://your-live-demo-link.com/netflix-clone",
+            "repoLink": "https://github.com/dev-idblfs/Netflix_Clone",
+            "status": "Completed",
+            "type": "Personal Project"
+        },
+        {
+            "id": "p3",
+            "title": "Cab Booking for Handicraft (NZ)",
+            "category": "Full-Stack Web Application",
+            "description": "Utilized React/Angular, Node.js, MongoDB, and REST API for feature development and AWS deployment. Enabled cab tracking with Google Maps API, fare calculation, and automated receipts.",
+            "longDescription": "A specialized cab booking platform designed for handicraft artists in New Zealand to transport their goods. The system includes user roles (artist, driver), real-time cab tracking via Google Maps API, dynamic fare calculation based on distance and item size, and automated generation of rental receipts. Deployed on AWS for scalability and reliability. The project involved both frontend (React/Angular for different modules) and backend (Node.js, MongoDB) development.",
+            "techStack": [
+                "React.js",
+                "Angular",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "REST API",
+                "AWS (EC2, S3, SQS)",
+                "Google Maps API",
+                "JWT"
+            ],
+            "imageUrl": "/images/projects/cab-booking-nz.png",
+            "repoLink": "https://github.com/your-username/cab-booking-nz",
+            "status": "Client Project (Archived/Showcase)",
+            "type": "Client Project (Conceptual)"
+        },
+        {
+            "id": "p4",
+            "title": "Online Insurance Panel (USA)",
+            "category": "Full-Stack Web Application",
+            "description": "Employed React, Node.js, MongoDB, and REST API for client feature development and AWS deployment. Integrated AES256 encryption for security and streamlined premium calculations.",
+            "longDescription": "A secure online portal for an insurance provider in the USA, allowing clients to manage policies, get quotes, and file claims. Key features include robust user authentication, AES256 encryption for all sensitive data in transit and at rest, and a dynamic premium calculation engine based on various user-provided criteria. The backend was built with Node.js and MongoDB, deployed on AWS. The frontend was developed using React for a responsive user experience.",
+            "techStack": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "REST API",
+                "AWS",
+                "AES256 Encryption",
+                "JWT"
+            ],
+            "imageUrl": "/images/projects/insurance-panel-usa.png",
+            "repoLink": "https://github.com/your-username/insurance-panel-usa",
+            "status": "Client Project (Archived/Showcase)",
+            "type": "Client Project (Conceptual)"
+        },
+        {
+            "id": "p5",
+            "title": "QR Code Generator (React)",
+            "category": "Frontend Utility",
+            "description": "A simple and efficient QR code generator built with React. Allows users to input text or URL and instantly generate a downloadable QR code.",
+            "longDescription": "This utility application was created to provide a quick and easy way to generate QR codes. Users can input any text string or URL, and the application will dynamically generate a QR code image. Features include customization options (like color, size - conceptual) and the ability to download the generated QR code as a PNG file. Built purely with React and client-side JavaScript libraries for QR code generation.",
+            "techStack": [
+                "React.js",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "qrcode.react"
+            ],
+            "imageUrl": "/images/projects/qr-code-generator.png",
+            "liveLink": "https://your-live-demo-link.com/qr-generator",
+            "repoLink": "https://github.com/dev-idblfs/QR_Code_Generator",
+            "status": "Completed",
+            "type": "Personal Project"
+        }
+    ],
+    "testimonials": [
+        {
+            "id": "t1",
+            "name": "Satisfied Client/Colleague Name",
+            "title": "Their Role, Their Company",
+            "quote": "Divyanshu is an incredibly talented engineer who consistently delivers high-quality work. His problem-solving skills and dedication were instrumental to our project's success.",
+            "imageUrl": "/images/testimonials/client1.jpg"
+        }
+    ],
+    "contact": {
+        "title": "Let's Connect!",
+        "description": "I'm always excited to discuss new projects, innovative ideas, or opportunities to collaborate. Feel free to reach out if you think my skills and experience would be a good fit for your team or project.",
+        "callToAction": "Send me an Email"
+    }
+}
